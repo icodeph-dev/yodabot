@@ -1,4 +1,7 @@
 window.addEventListener("load", () => {
+
+  let custom_property_data = "test only";
+
   (function(y,o,d,a,l,n){
   let ss = document.getElementsByTagName(l);let qp="";for(const t of ss){if(
   t.src.indexOf(n)>-1&&t.src.indexOf('?')>-1){qp = t.src.slice(t.src.indexOf('?'));break;}}
